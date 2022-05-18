@@ -1,0 +1,47 @@
+.content {
+    background-color: pink;
+    min-height: 80%;
+    width: 90%;
+    padding: 0% 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#picture{
+    width: 30%;
+    height: 30%;
+    border-radius: 180px;
+    object-fit: contain;
+    border: 5px solid violet;
+}
+
+.info {
+    width: 60%;
+    color: black;
+    text-align: center;
+}
+
+#info-container { width: 50%;}
+
+#info-container { margin: 20px 0;}
+
+#info-container h1 {font-size: 40px;}
+
+#button-container > * {margin: 20px 20px 20px 0;}
+
+#button-container button {
+    padding: 10px; border-radius: 5px; font-weight: bold;
+}
+
+#contact-button {
+    background-color: #8773EE;
+    color: #fff;
+    border: none;
+}
+
+#Portfolio-button {
+    background-color: #8773EE;
+    color: #fff;
+    border: none;
+}
